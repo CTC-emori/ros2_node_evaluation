@@ -7,15 +7,32 @@ The proposed framework stores and compares the output results of modules that ar
 
 ## Requirements
 
+ROS 2 Humble
 
-Autoware.Auto 0.1.0
+Ubuntu 22.04 LTS
+
+Autoware.Auto
+
+CARET
+
+## How to use framework
+
+Clone the repository
+```
+git clone https://github.com/azu-lab/rosbag2_evaluation.git
+```
+
+```bash
+$ source /path/to/ros/humble/setup.bash
+$ source /path/to/TILDE/install/setup.bash
+$ source install/setup.bash
+$ ros2 run tilde_early_deadline_detector tilde_early_deadline_detector_node_exe \
+    --ros-args --params-file autoware_sensors.yaml
+```
 
 
-ROS 2 Foxy
 
-Ubuntu 20.04 LTS
 
-## Steps
 
 ※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.<br>
 ※The config.yaml file should contain information about the nodes to be evaluated.
