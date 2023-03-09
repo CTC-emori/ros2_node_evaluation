@@ -12,6 +12,8 @@ This framework evaluates any node in an application like Autoware. Single node o
 
 - Node evaluation with CARET
   - The proposed framework uses CARET to evaluate the performance of any node. The callback of the evaluated node is evaluated. The evaluation metrics are latency, period, and frequency. If there is a path in the architecture file, the message flow, chain latency, and response time of the sequence of nodes defined in the path are visualized.
+
+Each function is independent, so users can use only the functions they want to use.
   
 
 ## Requirements
