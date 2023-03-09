@@ -3,6 +3,9 @@
 ## Overview
 
 This framework evaluates any node in an application like Autoware. Single node or multiple nodes (around 2~3 is suitable) can be evaluated. This framework runs on a GUI. The framework provides three main functions.
+
+- Arbitrary node activation
+  - A file is generated that describes the commands to activate each node and a file that describes the parameters of each node. These two files enable parameter-aware node activation. In addition, remap can be taken into account by using a yaml file that contains remap information for each node.
   
 
 ## Requirements
