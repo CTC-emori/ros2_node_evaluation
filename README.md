@@ -36,7 +36,7 @@ git clone https://github.com/azu-lab/ros2_node_evaluation.git
 ```bash
 $ source /path/to/ros/humble/setup.bash
 $ source /path/to/Autoware/install/setup.bash
-$ source /path/to/CARET/install/setup.bash
+$ source /path/to/ros2_caret_ws/install/setup.bash
 ```
 
 
