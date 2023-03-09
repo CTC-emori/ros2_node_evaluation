@@ -33,7 +33,7 @@ Clone the repository
 git clone https://github.com/azu-lab/ros2_node_evaluation.git
 ```
 
-```bash
+```
 $ source /opt/ros/humble/setup.bash
 $ source ~/autoware/install/setup.bash
 $ source ~/ros2_caret_ws/install/setup.bash
