@@ -2,7 +2,7 @@
 
 ## Overview
 
-The proposed framework stores and compares the output results of modules that are working accurately and previously ported modules with the same functionality. Experimental results show that the user can determine whether self-driving software using ROS 2 could be successfully ported to embedded platforms.
+This framework evaluates any node in an application like Autoware. Single node or multiple nodes (around 2~3 is suitable) can be evaluated. This framework runs on a GUI. The framework provides three main functions.
   
 
 ## Requirements
@@ -19,15 +19,13 @@ CARET
 
 Clone the repository
 ```
-git clone https://github.com/azu-lab/rosbag2_evaluation.git
+git clone https://github.com/azu-lab/ros2_node_evaluation.git
 ```
 
 ```bash
 $ source /path/to/ros/humble/setup.bash
-$ source /path/to/TILDE/install/setup.bash
-$ source install/setup.bash
-$ ros2 run tilde_early_deadline_detector tilde_early_deadline_detector_node_exe \
-    --ros-args --params-file autoware_sensors.yaml
+$ source /path/to/Autoware/install/setup.bash
+$ source /path/to/CARET/install/setup.bash
 ```
 
 
