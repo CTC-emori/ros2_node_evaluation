@@ -24,7 +24,7 @@ Ubuntu 22.04 LTS
 
 Autoware.Auto
 
-CARET
+[CARET](https://tier4.github.io/CARET_doc/latest/)
 
 ## How to use framework
 
