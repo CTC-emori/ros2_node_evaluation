@@ -6,6 +6,9 @@ This framework evaluates any node in an application like Autoware. Single node o
 
 - Arbitrary node activation
   - A file is generated that describes the commands to activate each node and a file that describes the parameters of each node. These two files enable parameter-aware node activation. In addition, remap can be taken into account by using a yaml file that contains remap information for each node.
+
+- bag file processing
+  - The framework processes the bag file according to which node it is activated. The bag file is processed so that it contains only the input topics of the node to be evaluated.
   
 
 ## Requirements
