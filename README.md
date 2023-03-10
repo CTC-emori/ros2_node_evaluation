@@ -39,6 +39,12 @@ $ source ~/autoware/install/setup.bash
 $ source ~/ros2_caret_ws/install/setup.bash
 ```
 
+CARET-related settings
+```
+$ export LD_PRELOAD=$(readlink -f ~/ros2_caret_ws/install/caret_trace/lib/libcaret.so)
+$ export CARET_IGNORE_NODES="/rviz*"
+$ export CARET_IGNORE_TOPICS="/clock:/parameter_events"
+```
 
 
 
