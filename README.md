@@ -46,8 +46,12 @@ $ export CARET_IGNORE_NODES="/rviz*"
 $ export CARET_IGNORE_TOPICS="/clock:/parameter_events"
 ```
 
-
-
+Launch the GUI of the framework
+```
+$ export LD_PRELOAD=$(readlink -f ~/ros2_caret_ws/install/caret_trace/lib/libcaret.so)
+$ export CARET_IGNORE_NODES="/rviz*"
+$ export CARET_IGNORE_TOPICS="/clock:/parameter_events"
+```
 
 ※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.<br>
 ※The config.yaml file should contain information about the nodes to be evaluated.
