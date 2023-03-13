@@ -26,6 +26,8 @@ Ubuntu 22.04 LTS
 
 [CARET](https://tier4.github.io/CARET_doc/latest/)
 
+[ViRAD](https://github.com/NAIST-SE/ViRAD) : External tool to obtain remap information for each node
+
 ## How to use framework
 
 Clone the repository
