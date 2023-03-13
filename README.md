@@ -35,6 +35,7 @@ Clone the repository
 git clone https://github.com/azu-lab/ros2_node_evaluation.git
 ```
 
+After extracting the cloned repository, run the following command
 ```
 $ source /opt/ros/humble/setup.bash
 $ source ~/autoware/install/setup.bash
